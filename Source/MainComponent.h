@@ -27,9 +27,7 @@ public:
     void resized() override;
 
 private:
-    //==============================================================================
-    // Your private member variables go here...
-
+    TextButton header, sidebar, limeContent, grapefruitContent, lemonContent, orangeContent, footer, sideItemA, sideItemB, sideItemC;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
